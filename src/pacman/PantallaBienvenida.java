@@ -75,7 +75,7 @@ public class PantallaBienvenida extends JFrame {
         this.btnJugar = new JButton("Jugar");
         this.btnAcerca = new JButton("Integrantes");
         this.btnSalir = new JButton("Fin del juego");
-        this.imgIcono = new ImageIcon(getClass().getResource("/recursos/icono.png"));
+        this.imgIcono = new ImageIcon(getClass().getResource("/recursos/pacman.png"));
         this.imgPacman = new ImageIcon(getClass().getResource("/recursos/pacman_dcha.png"));
         this.imgFantasma1 = new ImageIcon(getClass().getResource("/recursos/fantasma4.png"));
         this.imgFantasma2 = new ImageIcon(getClass().getResource("/recursos/fantasma7.png"));

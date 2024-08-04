@@ -154,8 +154,8 @@ public class Juego extends JFrame {
     private final int COLUMNAS = ESCENARIO_ORIGINAL[0].length;
 
     /**
-     * Constructor de la clase Juego.Inicializa todos los elementos para
-     * conformar el juego.
+     * Constructor de la clase Juego.
+     * Inicializa todos los elementos para conformar el juego.
      *
      * @param recordAnterior El record anteriormente conseguido.
      */

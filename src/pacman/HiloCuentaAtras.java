@@ -1,7 +1,7 @@
 package pacman;
 
 /**
- * Espera de tiempo y ser invulnerable a los fantasmas.
+ * Espera de tiempo y ser inmune a los fantasmas.
  *
  * @author Jossibel Perez
  * @author Maria Chuico

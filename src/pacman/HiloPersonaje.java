@@ -21,14 +21,14 @@ public class HiloPersonaje implements Runnable {
     private boolean comido;
 
     /**
-     * Contructor de la clase Personaje. Define el estado del objeto.
+     * Constructor de la clase Personaje. Define el estado del objeto.
      *
      * @param y Coordenada Y en la que se encuentra.
      * @param x Coordenada X en la que se encuentra.
      * @param padre Instancia de la clase Juego para poder comunicarse con el.
      * @param id En el caso de los fantasmas los identifica para posteriormente
      * poder darles un color.
-     * @param personaje El personaje del que se trata. 2 PacMan, 3 fantasma.
+     * @param personaje El personaje del que se trata. 2 PacMan y 3 fantasmas.
      * @param velocidad Frecuencia a la que se mueve el personaje.
      */
     public HiloPersonaje(int y, int x, Juego padre, int id, int personaje, long velocidad) {
