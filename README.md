@@ -9,6 +9,57 @@ El juego que hemos relizado es Pac-Man el cual es un juego de acción de laberin
 # Diagrama de Clases
 ![image](https://github.com/user-attachments/assets/2b76ab59-0c6f-4eaf-bdb5-85efa07bdc5e)
 
+[Uploadingpackage pacman;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+/**
+ * Trabaja con ficheros.
+ *
+ * @author Jossibel Perez
+ * @author Maria Chuico
+ */
+public class GuardarCargar {
+
+    private static final File ARCHIVO = new File("pacman.sav");
+
+    public GuardarCargar() {
+    }
+
+    /**
+     * Escribe la nueva puntuacion.
+     *
+     * @param puntuacion
+     */
+    protected void guardar(int puntuacion) {
+        try (FileOutputStream fos = new FileOutputStream(ARCHIVO); DataOutputStream escritor = new DataOutputStream(fos);) {
+            escritor.writeInt(puntuacion);
+            escritor.flush();
+
+        } catch (IOException ex) {
+            System.out.println("ERROR - Al escribir el archivo.");
+        }
+    }
+
+    /**
+     * Carga la puntuacion anterior, si existe el archivo.
+     */
+    protected int cargar() {
+        try (FileInputStream fis = new FileInputStream(ARCHIVO); DataInputStream lector = new DataInputStream(fis);) {
+            return lector.readInt();
+
+        } catch (Exception ex) {
+            System.out.println("ERROR - Al leer el archivo.");
+        }
+        return -1;
+    }
+}
+ GuardarCargar.java…]()
 
 # Clases en el Código
 * Clase GuardarCargar
@@ -17,7 +68,7 @@ El juego que hemos relizado es Pac-Man el cual es un juego de acción de laberin
   
 ![image](https://github.com/user-attachments/assets/f887d6d0-faab-4a35-95e1-30956cc6fce3)
 
-[Uploading GuardarCargar.java…]()
+
 
 
 * Clase HiloCuentaAtras
