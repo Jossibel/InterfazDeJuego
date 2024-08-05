@@ -9,66 +9,12 @@ El juego que hemos relizado es Pac-Man el cual es un juego de acción de laberin
 # Diagrama de Clases
 ![image](https://github.com/user-attachments/assets/2b76ab59-0c6f-4eaf-bdb5-85efa07bdc5e)
 
-[Uploadingpackage pacman;
-
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-
-/**
- * Trabaja con ficheros.
- *
- * @author Jossibel Perez
- * @author Maria Chuico
- */
-public class GuardarCargar {
-
-    private static final File ARCHIVO = new File("pacman.sav");
-
-    public GuardarCargar() {
-    }
-
-    /**
-     * Escribe la nueva puntuacion.
-     *
-     * @param puntuacion
-     */
-    protected void guardar(int puntuacion) {
-        try (FileOutputStream fos = new FileOutputStream(ARCHIVO); DataOutputStream escritor = new DataOutputStream(fos);) {
-            escritor.writeInt(puntuacion);
-            escritor.flush();
-
-        } catch (IOException ex) {
-            System.out.println("ERROR - Al escribir el archivo.");
-        }
-    }
-
-    /**
-     * Carga la puntuacion anterior, si existe el archivo.
-     */
-    protected int cargar() {
-        try (FileInputStream fis = new FileInputStream(ARCHIVO); DataInputStream lector = new DataInputStream(fis);) {
-            return lector.readInt();
-
-        } catch (Exception ex) {
-            System.out.println("ERROR - Al leer el archivo.");
-        }
-        return -1;
-    }
-}
- GuardarCargar.java…]()
-
 # Clases en el Código
 * Clase GuardarCargar
 - Se encuentra al inicio del archivo
 - Maneja la subsistencia de datos en cuanto a la lectura y escritura de la puntuación en un archivo.
   
 ![image](https://github.com/user-attachments/assets/f887d6d0-faab-4a35-95e1-30956cc6fce3)
-
-
 
 
 * Clase HiloCuentaAtras
@@ -102,7 +48,17 @@ public class GuardarCargar {
 ![image](https://github.com/user-attachments/assets/837d17d5-24d2-4ed2-86fb-b4025571a2e0)
     
 # Ejecucion
-Este juego fue desarrolladp en el IDE NetBeans
+* En el respositorio los archivos se encuentran en la capeta de "src", donde dentro de ella se encuentran dos carpetas mas en las cuales dentro de la primera se encuentran las clases principales del juego
+
+![image](https://github.com/user-attachments/assets/82400b1f-5037-40a3-9ffe-37d5c82ecc05)
+
+![image](https://github.com/user-attachments/assets/e94069ba-d9fd-4ba8-bd5c-59ed69c6fcf1)
+
+Y en la segunda carpeta (recursos) se encuentra las imagenes que se uso para el desarrollo del juego.
+
+![image](https://github.com/user-attachments/assets/2968d764-9879-4b23-9d0f-2aac41c5f475)
+
+* Este juego fue desarrolladp en el IDE NetBeans
 1. Clonamos el repositorio u otra opcion es descargar el archico .zip
 https://github.com/Jossibel/InterfazDeJuego.git
 
