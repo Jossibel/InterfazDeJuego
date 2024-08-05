@@ -9,14 +9,6 @@ Al ingresar a la pagina se debe seleccionar esta carpeta
 
  ![image](https://github.com/user-attachments/assets/6e6af9f8-40c6-4d01-b1a8-06ecb86996c2)
 
-
-# PAC MAN
-
-![image](https://github.com/user-attachments/assets/dd95ecd9-b608-4642-abd7-669345c64dda)
-
-# Descripcion:
-El juego que hemos relizado es Pac-Man el cual es un juego de acción de laberintos el mismo que fue desarrollado e implusado por Namco en 1980. El juego trata de que el jugador controla a Pac-Man, el cual que debe comerse todos los puntos dentro de un laberinto cerrado mientras evita a fantasmas de colores. Al comer los puntos grandes llamados "Super Pildoras", los fantasmas se vuelven de otro color, lo que permite a Pac-Man comérselos para conseguir puntos extra.
-
 # Diagrama de Clases
 
 ![UML_JuegoPacman](https://github.com/user-attachments/assets/2244f29f-3b60-4b93-9bf1-4bf6fe52cfbe)
@@ -68,6 +60,12 @@ El juego que hemos relizado es Pac-Man el cual es un juego de acción de laberin
 Y en la segunda carpeta (recursos) se encuentra las imagenes que se uso para el desarrollo del juego.
 
 ![image](https://github.com/user-attachments/assets/2968d764-9879-4b23-9d0f-2aac41c5f475)
+
+# PAC MAN
+
+![image](https://github.com/user-attachments/assets/dd95ecd9-b608-4642-abd7-669345c64dda)
+# Descripcion:
+El juego que hemos relizado es Pac-Man el cual es un juego de acción de laberintos el mismo que fue desarrollado e implusado por Namco en 1980. El juego trata de que el jugador controla a Pac-Man, el cual que debe comerse todos los puntos dentro de un laberinto cerrado mientras evita a fantasmas de colores. Al comer los puntos grandes llamados "Super Pildoras", los fantasmas se vuelven de otro color, lo que permite a Pac-Man comérselos para conseguir puntos extra.
     
 # Ejecucion
 * Este juego fue desarrollado en el IDE NetBeans
