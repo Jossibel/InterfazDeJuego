@@ -2,6 +2,9 @@
 # Codigos se encuentran en la carpetan de (src)
 
 ![image](https://github.com/user-attachments/assets/24b9fd9a-c36e-43fb-915e-ecf61100544f)
+Al ingresar a la pagina se debe seleccionar esta carpeta 
+![image](https://github.com/user-attachments/assets/4669511e-b465-48c6-b8f4-50d9ea56e05a)
+
 # PAC MAN
 
 ![image](https://github.com/user-attachments/assets/dd95ecd9-b608-4642-abd7-669345c64dda)
