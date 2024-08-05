@@ -46,9 +46,8 @@ El juego que hemos relizado es Pac-Man el cual es un juego de acción de laberin
   - Muestra la pantalla de bienvenida que se extiende JFrame, por lo que se abre como una ventana de aplicación gráfica y muestra un          panel con un título, una imagen de portada y tres botones: "Jugar", "Integrantes" y "Fin del juego".
     
 ![image](https://github.com/user-attachments/assets/837d17d5-24d2-4ed2-86fb-b4025571a2e0)
-    
-# Ejecucion
-* En el respositorio los archivos se encuentran en la capeta de "src", donde dentro de ella se encuentran dos carpetas mas en las cuales dentro de la primera se encuentran las clases principales del juego
+
+* En el respositorio los archivos se encuentran en la capeta de "src", donde dentro de ella se encuentran dos carpetas mas en las cuales dentro de la primera  se encuentran las clases principales del juego
 
 ![image](https://github.com/user-attachments/assets/82400b1f-5037-40a3-9ffe-37d5c82ecc05)
 
@@ -57,8 +56,9 @@ El juego que hemos relizado es Pac-Man el cual es un juego de acción de laberin
 Y en la segunda carpeta (recursos) se encuentra las imagenes que se uso para el desarrollo del juego.
 
 ![image](https://github.com/user-attachments/assets/2968d764-9879-4b23-9d0f-2aac41c5f475)
-
-* Este juego fue desarrolladp en el IDE NetBeans
+    
+# Ejecucion
+* Este juego fue desarrollado en el IDE NetBeans
 1. Clonamos el repositorio u otra opcion es descargar el archico .zip
 https://github.com/Jossibel/InterfazDeJuego.git
 
