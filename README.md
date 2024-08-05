@@ -18,7 +18,8 @@ Al ingresar a la pagina se debe seleccionar esta carpeta
 El juego que hemos relizado es Pac-Man el cual es un juego de acción de laberintos el mismo que fue desarrollado e implusado por Namco en 1980. El juego trata de que el jugador controla a Pac-Man, el cual que debe comerse todos los puntos dentro de un laberinto cerrado mientras evita a fantasmas de colores. Al comer los puntos grandes llamados "Super Pildoras", los fantasmas se vuelven de otro color, lo que permite a Pac-Man comérselos para conseguir puntos extra.
 
 # Diagrama de Clases
-![image](https://github.com/user-attachments/assets/2b76ab59-0c6f-4eaf-bdb5-85efa07bdc5e)
+
+![UML_JuegoPacman](https://github.com/user-attachments/assets/2244f29f-3b60-4b93-9bf1-4bf6fe52cfbe)
 
 # Clases en el Código
 * Clase GuardarCargar
