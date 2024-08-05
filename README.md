@@ -1,4 +1,6 @@
 # InterfazDeJuego
+# CodigosSe Selecciona la Carpeta de (src)
+
 # PAC MAN
 
 ![image](https://github.com/user-attachments/assets/dd95ecd9-b608-4642-abd7-669345c64dda)
