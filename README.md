@@ -4,8 +4,8 @@
 ![image](https://github.com/user-attachments/assets/24b9fd9a-c36e-43fb-915e-ecf61100544f)
 Al ingresar a la pagina se debe seleccionar esta carpeta 
 
- ![image](https://github.com/user-attachments/assets/4669511e-b465-48c6-b8f4-50d9ea56e05a)
- Al ingresar a la carpeta salen las carpetas de cada codigo utilizado 
+   ![image](https://github.com/user-attachments/assets/4669511e-b465-48c6-b8f4-50d9ea56e05a)
+ Al ingresar a la carpeta se veran los archivos de cada codigo utilizado 
 
  ![image](https://github.com/user-attachments/assets/6e6af9f8-40c6-4d01-b1a8-06ecb86996c2)
 
