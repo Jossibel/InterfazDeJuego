@@ -1,6 +1,7 @@
 # InterfazDeJuego
-# CodigosSe Selecciona la Carpeta de (src)
+# Codigos se encuentran en la carpetan de (src)
 
+![image](https://github.com/user-attachments/assets/24b9fd9a-c36e-43fb-915e-ecf61100544f)
 # PAC MAN
 
 ![image](https://github.com/user-attachments/assets/dd95ecd9-b608-4642-abd7-669345c64dda)
